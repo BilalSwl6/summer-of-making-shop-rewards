@@ -1,70 +1,51 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# List of products
+```
+$ curl -s https://summer.hackclub.com/shop | grep -oP '<h3 class="text-xl font-bold mb-2">.*?<\/h3>' | sed -E 's/<h3 class="text-xl font-bold mb-2">(.*?)<\/h3>/\1/'
+```
+# Details pending for the products
+- [ ] Free Stickers!
+- [ ] Pile of Stickers
+- [ ] TIS-100
+- [ ] 64GB USB Drive
+- [ ] Hot Glue Gun
+- [ ] Domain grant
+- [ ] CH341A Programmer
+- [ ] Orpheus Pico! (preorder)
+- [ ] Logic Analyzer
+- [ ] 128GB USB Drive
+- [ ] Cat Printer
+- [ ] Pico-8 License
+- [ ] Allen Wrench 
+- [ ] Digital Calipers
+- [ ] Voxatron License
+- [ ] Raspberry Pi Zero 2 W
+- [ ] 256GB USB Drive
+- [ ] 256GB microSD card + adapter
+- [ ] Smolhaj
+- [ ] Anker USB C to USB C Cable + Wall Adapter
+- [ ] Qiyi XMD XT3 speedcube
+- [ ] Dupont Crimping Tool Kit
+- [ ] Pinecil
+- [ ] Lexaloffle Games bundle
+- [ ] Factorio
+- [ ] Brother Label Maker
+- [ ] Proxmark 3
+- [ ] Yubikey USB-A
+- [ ] Waveshare 7.5inch E-Ink Display
+- [ ] Baofeng UV-5R (2 pack)
+- [ ] Yubikey USB-C
+- [ ] Seagate 2TB external HDD
+- [ ] Logitech MX Master 3S
+- [ ] Raspberry Pi 5
+- [ ] Glasgow Interface Explorer
+- [ ] Logitech G Pro X Superlight
+- [ ] Flipper Zero
+- [ ] cricut v3
+- [ ] Playdate
+- [ ] Bambu A1 mini Printer
+- [ ] 100MHZ Oscilloscope
+- [ ] $500 in Amp credit
+- [ ] iPad + Apple Pencil
+- [ ] M4 Mac Mini
+- [ ] Framework 12
+- [ ] 13-inch M4 MacBook Air
