@@ -1,0 +1,473 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "64GB USB Flash Drive",
+      "category": "computer",
+      "price": 2500,
+      "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=500&h=300&fit=crop",
+      "description": "Store all your important files securely with USB 3.0 speed.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "brand": "Kingston",
+        "storage": "64 GB",
+        "type": "USB 3.0"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Wireless Mouse",
+      "category": "computer",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&h=300&fit=crop",
+      "description": "Smooth and precise control for your computing tasks.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "brand": "Logitech",
+        "connection": "Wireless",
+        "dpi": "1000"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Raspberry Pi 4 Model B",
+      "category": "computer",
+      "price": 9500,
+      "image": "https://images.unsplash.com/photo-1621961456738-3ff7ffef49dc?w=500&h=300&fit=crop",
+      "description": "Compact and powerful single-board computer.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "ram": "4GB",
+        "ports": "HDMI, USB-C, Ethernet"
+      },
+      "inStock": true,
+      "featured": true
+    },
+
+    {
+      "id": 4,
+      "name": "Boafeng UV-5R (2 Pack)",
+      "category": "tech-gadgets",
+      "price": 8900,
+      "image": "https://images.unsplash.com/photo-1555617980-9259f3b6bc52?w=500&h=300&fit=crop",
+      "description": "Dual-band two-way radio for clear communication.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "range": "5km",
+        "battery": "1800mAh"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Glasgow Interface Explorer",
+      "category": "tech-gadgets",
+      "price": 7300,
+      "image": "https://images.unsplash.com/photo-1555617980-fb5e88e8719d?w=500&h=300&fit=crop",
+      "description": "Versatile tool for debugging and hardware interfaces.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "brand": "Glasgow",
+        "ports": "USB-C"
+      },
+      "inStock": false,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Smart Key Finder",
+      "category": "tech-gadgets",
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1612810806706-1cb8e3a5d7a6?w=500&h=300&fit=crop",
+      "description": "Track your keys with Bluetooth.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "range": "30 meters",
+        "battery": "CR2032"
+      },
+      "inStock": true,
+      "featured": false
+    },
+
+    {
+      "id": 7,
+      "name": "Brother Label Maker",
+      "category": "stationary",
+      "price": 4500,
+      "image": "https://images.unsplash.com/photo-1581091012184-5c1b2dd91c93?w=500&h=300&fit=crop",
+      "description": "Create labels instantly for your items.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "model": "PT-D210",
+        "tapeWidth": "12mm"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "64 Color Pencil Set",
+      "category": "stationary",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1603354350317-6edb9340e2b6?w=500&h=300&fit=crop",
+      "description": "Premium color pencils for artists and students.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "brand": "Faber-Castell",
+        "count": "64"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Bamboo A1 Paper Printer",
+      "category": "stationary",
+      "price": 12000,
+      "image": "https://images.unsplash.com/photo-1519241047957-be31d7379a5d?w=500&h=300&fit=crop",
+      "description": "Large format printer for design and documents.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "type": "Inkjet",
+        "paperSize": "A1"
+      },
+      "inStock": false,
+      "featured": true
+    },
+
+    {
+      "id": 10,
+      "name": "Extension Cord with USB",
+      "category": "electric",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1615874959474-d609be1fa7e1?w=500&h=300&fit=crop",
+      "description": "Surge-protected extension cord with USB ports.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "ports": "3 USB, 4 Power",
+        "length": "2m"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Soldering Iron Kit",
+      "category": "electric",
+      "price": 2800,
+      "image": "https://images.unsplash.com/photo-1555617980-fb5e88e8719d?w=500&h=300&fit=crop",
+      "description": "Complete soldering kit with stand and tips.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "power": "60W",
+        "voltage": "220V"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "LED Strip Light",
+      "category": "electric",
+      "price": 850,
+      "image": "https://images.unsplash.com/photo-1586528115311-79db38b8925f?w=500&h=300&fit=crop",
+      "description": "Flexible RGB light strip with remote.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "length": "5m",
+        "power": "12V"
+      },
+      "inStock": true,
+      "featured": false
+    },
+
+    {
+      "id": 13,
+      "name": "Crimping Tool Kit",
+      "category": "mechanical",
+      "price": 3200,
+      "image": "https://images.unsplash.com/photo-1527018604071-507d3e8f6f11?w=500&h=300&fit=crop",
+      "description": "Multipurpose crimping and wire tool kit.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "tools": "9",
+        "material": "Steel"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "Adjustable Wrench Set",
+      "category": "mechanical",
+      "price": 2100,
+      "image": "https://images.unsplash.com/photo-1581574203564-70f1bca28252?w=500&h=300&fit=crop",
+      "description": "Set of wrenches for mechanical tasks.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "sizes": "6in, 8in, 12in",
+        "material": "Alloy Steel"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 15,
+      "name": "Precision Screwdriver Kit",
+      "category": "mechanical",
+      "price": 1700,
+      "image": "https://images.unsplash.com/photo-1617957748014-c9c3c47f14f6?w=500&h=300&fit=crop",
+      "description": "For electronics, watches, and glasses.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "pieces": "24",
+        "magnetic": "Yes"
+      },
+      "inStock": false,
+      "featured": false
+    },
+
+    {
+      "id": 16,
+      "name": "Domain Name (.com)",
+      "category": "virtual",
+      "price": 1300,
+      "image": "https://images.unsplash.com/photo-1531497865144-0464ef8fbf57?w=500&h=300&fit=crop",
+      "description": "Register your brand's web identity.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "period": "1 year",
+        "privacy": "Included"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 17,
+      "name": "VPS Hosting Plan",
+      "category": "virtual",
+      "price": 11000,
+      "image": "https://images.unsplash.com/photo-1581092334820-894d58bba671?w=500&h=300&fit=crop",
+      "description": "Dedicated cloud VPS hosting for developers.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "ram": "4 GB",
+        "storage": "80 GB SSD"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 18,
+      "name": "SSL Certificate",
+      "category": "virtual",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1610576669033-6d0319295d99?w=500&h=300&fit=crop",
+      "description": "Secure your website with encryption.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "type": "DV SSL",
+        "validity": "1 Year"
+      },
+      "inStock": true,
+      "featured": false
+    },
+
+    {
+      "id": 19,
+      "name": "Teddy Bear Plush",
+      "category": "toy",
+      "price": 1300,
+      "image": "https://images.unsplash.com/photo-1603574937617-029400b36f4b?w=500&h=300&fit=crop",
+      "description": "Soft toy for kids and babies.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "size": "Medium",
+        "washable": "Yes"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 20,
+      "name": "RC Shark Toy",
+      "category": "toy",
+      "price": 2600,
+      "image": "https://images.unsplash.com/photo-1603364357232-5d5f9f7c13ed?w=500&h=300&fit=crop",
+      "description": "Remote controlled shark for water play.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "battery": "Rechargeable",
+        "range": "15m"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 21,
+      "name": "LEGO Classic Box",
+      "category": "toy",
+      "price": 3400,
+      "image": "https://images.unsplash.com/photo-1610553647856-c0c7a28a3277?w=500&h=300&fit=crop",
+      "description": "Creative block-building for kids.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "pieces": "500+",
+        "age": "5+"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 22,
+      "name": "Zero Flipper USB Device",
+      "category": "security",
+      "price": 5800,
+      "image": "https://images.unsplash.com/photo-1612810806706-1cb8e3a5d7a6?w=500&h=300&fit=crop",
+      "description": "Multi-tool for hardware exploration and pentesting.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "protocols": "RFID, IR, NFC",
+        "battery": "Built-in"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 23,
+      "name": "Fingerprint USB Lock",
+      "category": "security",
+      "price": 3500,
+      "image": "https://images.unsplash.com/photo-1516726817505-f5ed825e76a1?w=500&h=300&fit=crop",
+      "description": "USB device secured with fingerprint authentication.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "type": "USB 3.0",
+        "security": "Biometric"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 24,
+      "name": "Wi-Fi Door Sensor",
+      "category": "security",
+      "price": 2200,
+      "image": "https://images.unsplash.com/photo-1609092616139-79d10e2b050b?w=500&h=300&fit=crop",
+      "description": "Smart door/window sensor with app alerts.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "connectivity": "Wi-Fi",
+        "battery": "AAA"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 25,
+      "name": "Puzzle Adventure Board Game",
+      "category": "games",
+      "price": 2800,
+      "image": "https://images.unsplash.com/photo-1549921296-3a5e9e4a3cdd?w=500&h=300&fit=crop",
+      "description": "Solve clues and escape rooms with friends.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "players": "2-6",
+        "time": "60 mins"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 26,
+      "name": "Paper Toss Challenge",
+      "category": "games",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1600195077071-1a2e5d0879f2?w=500&h=300&fit=crop",
+      "description": "Simple yet addictive desk game.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "material": "Cardboard",
+        "age": "8+"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 27,
+      "name": "Mini Tabletop Soccer",
+      "category": "games",
+      "price": 2400,
+      "image": "https://images.unsplash.com/photo-1610553647856-c0c7a28a3277?w=500&h=300&fit=crop",
+      "description": "Fast-paced football fun at your desk.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "players": "2",
+        "size": "Small"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 28,
+      "name": "Laptop Stand Adjustable",
+      "category": "computer",
+      "price": 2900,
+      "image": "https://images.unsplash.com/photo-1612810806706-1cb8e3a5d7a6?w=500&h=300&fit=crop",
+      "description": "Ergonomic aluminum stand for better posture.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "material": "Aluminum",
+        "adjustable": "Yes"
+      },
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 29,
+      "name": "Gaming Mechanical Keyboard",
+      "category": "computer",
+      "price": 6700,
+      "image": "https://images.unsplash.com/photo-1519183071298-a2962be96f86?w=500&h=300&fit=crop",
+      "description": "RGB backlit mechanical keyboard with blue switches.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "keys": "104",
+        "type": "Mechanical"
+      },
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 30,
+      "name": "USB Type-C Hub",
+      "category": "computer",
+      "price": 3300,
+      "image": "https://images.unsplash.com/photo-1615874959474-d609be1fa7e1?w=500&h=300&fit=crop",
+      "description": "7-in-1 hub with HDMI, USB, card reader, and more.",
+      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "specs": {
+        "ports": "7",
+        "input": "USB-C"
+      },
+      "inStock": true,
+      "featured": false
+    }
+  ],
+  "categories": [
+    { "id": "tech-gadgets", "name": "Tech Gadgets", "icon": "Zap" },
+    { "id": "stationary", "name": "Stationary", "icon": "Pencil" },
+    { "id": "electric", "name": "Electric", "icon": "Plug" },
+    { "id": "mechanical", "name": "Mechanical", "icon": "Wrench" },
+    { "id": "virtual", "name": "Virtual", "icon": "Globe" },
+    { "id": "toy", "name": "Toy", "icon": "ToyBrick" },
+    { "id": "security", "name": "Security", "icon": "Shield" },
+    { "id": "computer", "name": "Computer", "icon": "Monitor" },
+    { "id": "games", "name": "Games", "icon": "Gamepad2" }
+  ]
+}
