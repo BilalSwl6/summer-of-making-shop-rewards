@@ -2,47 +2,50 @@
   "products": [
     {
       "id": 1,
-      "name": "64GB USB Flash Drive",
-      "category": "computer",
-      "price": 2500,
-      "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=500&h=300&fit=crop",
-      "description": "Store all your important files securely with USB 3.0 speed.",
+      "name": "Pile of Stickers",
+      "category": "stationary",
+      "price": 3,
+      "coins": 25,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzcsInB1ciI6ImJsb2JfaWQifX0=--c43efaa20563fa2f6e9e2b15bca2fdbc4197b7df/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/pile_of_stickers.png",
+      "description": "Paste where you want",
       "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
       "specs": {
-        "brand": "Kingston",
-        "storage": "64 GB",
-        "type": "USB 3.0"
+        "brand": "hackclub",
+        "type": "Stickers"
       },
       "inStock": true,
       "featured": true
     },
     {
       "id": 2,
-      "name": "Wireless Mouse",
-      "category": "computer",
-      "price": 1800,
-      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&h=300&fit=crop",
-      "description": "Smooth and precise control for your computing tasks.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "TIS-100",
+      "category": "games",
+      "price": 6.99,
+      "coins": 32,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODQwLCJwdXIiOiJibG9iX2lkIn19--bd312986c11cc5f624b518ac02e0c3b77a16665b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_0i4_Kleki(1).png",
+      "description": "TIS-100 is a programming/puzzle video game. asm but now in a fun game!",
+      "orignalLink": "https://www.zachtronics.com/tis-100/",
       "specs": {
-        "brand": "Logitech",
-        "connection": "Wireless",
-        "dpi": "1000"
+        "brand": "Zachtronics",
+        "type": "Programming Game",
+        "features": "Fictional system",
+        "other": "game simulates a 1980s computer"
       },
       "inStock": true,
       "featured": false
     },
     {
       "id": 3,
-      "name": "Raspberry Pi 4 Model B",
-      "category": "computer",
-      "price": 9500,
-      "image": "https://images.unsplash.com/photo-1621961456738-3ff7ffef49dc?w=500&h=300&fit=crop",
-      "description": "Compact and powerful single-board computer.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Summer of Making Blue",
+      "category": "virtual",
+      "price": 10,
+      "coins": 40,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTg3NTcsInB1ciI6ImJsb2JfaWQifX0=--4669008827ebfc3e3e718dbc633c9b47129445d3/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/verified.png",
+      "description": "verify yourself for that premium feel! AI assistant included.",
+      "orignalLink": "https://www.meta.com/meta-verified/",
       "specs": {
-        "ram": "4GB",
-        "ports": "HDMI, USB-C, Ethernet"
+        "duration": "1 month",
+        "organization": "meta"
       },
       "inStock": true,
       "featured": true
@@ -50,44 +53,48 @@
 
     {
       "id": 4,
-      "name": "Boafeng UV-5R (2 Pack)",
+      "name": "64GB USB Drive",
       "category": "tech-gadgets",
-      "price": 8900,
-      "image": "https://images.unsplash.com/photo-1555617980-9259f3b6bc52?w=500&h=300&fit=crop",
+      "price": 20.58,
+      "coins": 45,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTMwMSwicHVyIjoiYmxvYl9pZCJ9fQ==--1a97fe9d21262424129d5fbe90b3128468c08857/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_10l_Kleki-removebg-preview(1).png",
       "description": "Dual-band two-way radio for clear communication.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "orignalLink": "https://www.ebay.com/p/28031751885",
       "specs": {
-        "range": "5km",
-        "battery": "1800mAh"
+        "capacity": "64GB",
+        "material": "plastic",
+        "technology": "3.0"
       },
       "inStock": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": 5,
-      "name": "Glasgow Interface Explorer",
-      "category": "tech-gadgets",
-      "price": 7300,
-      "image": "https://images.unsplash.com/photo-1555617980-fb5e88e8719d?w=500&h=300&fit=crop",
-      "description": "Versatile tool for debugging and hardware interfaces.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Domain grant",
+      "category": "virtual",
+      "price": 12,
+      "coins": 45,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjUyLCJwdXIiOiJibG9iX2lkIn19--9ee004694756d78b18a782aa73c3bb6f4febfbac/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_16_0qu_Kleki(1).png",
+      "description": "RSVP your spot online! (this is a grant for 10$).",
+      "orignalLink": "https://www.godaddy.com1",
       "specs": {
-        "brand": "Glasgow",
-        "ports": "USB-C"
+        "duration": "1 year",
+        "extension": ".com"
       },
       "inStock": false,
       "featured": false
     },
     {
       "id": 6,
-      "name": "Smart Key Finder",
-      "category": "tech-gadgets",
-      "price": 1500,
-      "image": "https://images.unsplash.com/photo-1612810806706-1cb8e3a5d7a6?w=500&h=300&fit=crop",
-      "description": "Track your keys with Bluetooth.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Logic Analyzer",
+      "category": "electric",
+      "price": 39.60,
+      "coins": 50,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI4MSwicHVyIjoiYmxvYl9pZCJ9fQ==--583d93d2c0f697c624006114c457a0173e3d9493/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_0zp_Kleki(1).png",
+      "description": "Capture and analyze digital signals",
+      "orignalLink": "https://www.amazon.in/Analyzer-Device-Digital-Channel-Dslogic/dp/B08CDFYHW8",
       "specs": {
-        "range": "30 meters",
+        "material": "PCB & Plastic",
         "battery": "CR2032"
       },
       "inStock": true,
@@ -96,45 +103,48 @@
 
     {
       "id": 7,
-      "name": "Brother Label Maker",
+      "name": "Hot Glue Gun",
       "category": "stationary",
-      "price": 4500,
-      "image": "https://images.unsplash.com/photo-1581091012184-5c1b2dd91c93?w=500&h=300&fit=crop",
-      "description": "Create labels instantly for your items.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "price": 8,
+      "coins": 66,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE1LCJwdXIiOiJibG9iX2lkIn19--ab5680327129b358019505dc14c09ed6e18db000/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_15_0z5_Kleki(1).png",
+      "description": "It is a hot glue gun, nothing too special.",
+      "orignalLink": "https://www.amazon.ae/Transparent-Sticks-Rhinestones-Routine-Repairing/dp/B08Y75RT1X",
       "specs": {
-        "model": "PT-D210",
-        "tapeWidth": "12mm"
+        "Voltage": "240 Volts",
+        "Batteries Required?": "No"
       },
-      "inStock": true,
+      "inStock": false,
       "featured": false
     },
     {
       "id": 8,
-      "name": "64 Color Pencil Set",
-      "category": "stationary",
-      "price": 950,
-      "image": "https://images.unsplash.com/photo-1603354350317-6edb9340e2b6?w=500&h=300&fit=crop",
-      "description": "Premium color pencils for artists and students.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Pico-8 License",
+      "category": "games",
+      "price": 15,
+      "coins": 60,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODQsInB1ciI6ImJsb2JfaWQifX0=--19d35b0a75a43da8864c4439318efa7b896bb3bf/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_15_0sk_Kleki.png",
+      "description": "Get the worlds best fantasy console now!",
+      "orignalLink": "https://www.lexaloffle.com/pico-8.php",
       "specs": {
-        "brand": "Faber-Castell",
-        "count": "64"
+        "Cart Size": "32K",
+        "CPU": "4M vm insts/sec"
       },
       "inStock": true,
       "featured": false
     },
     {
       "id": 9,
-      "name": "Bamboo A1 Paper Printer",
+      "name": "Bambu A1 mini Printer",
       "category": "stationary",
-      "price": 12000,
-      "image": "https://images.unsplash.com/photo-1519241047957-be31d7379a5d?w=500&h=300&fit=crop",
-      "description": "Large format printer for design and documents.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "price": 249.00,
+      "coins": 1175,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI0MywicHVyIjoiYmxvYl9pZCJ9fQ==--f136ab48ddb5e95bbe0bcebb072538823ab3db7c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_0yp_Kleki(1).png",
+      "description": "Print your wildest dreams! or that one squid with the rock head",
+      "orignalLink": "https://bambulab.com/en/a1-mini",
       "specs": {
-        "type": "Inkjet",
-        "paperSize": "A1"
+        "Calibration": "Full-Auto",
+        "Precision": "10000 mm/s² Acceleration"
       },
       "inStock": false,
       "featured": true
@@ -142,91 +152,94 @@
 
     {
       "id": 10,
-      "name": "Extension Cord with USB",
+      "name": "E-Fidget",
       "category": "electric",
-      "price": 1800,
-      "image": "https://images.unsplash.com/photo-1615874959474-d609be1fa7e1?w=500&h=300&fit=crop",
-      "description": "Surge-protected extension cord with USB ports.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "price": 25,
+      "coins": 80,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjg2NzYsInB1ciI6ImJsb2JfaWQifX0=--0678dbde85b28e7da9f903f617c5618ad54cb207/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_07_22_0hy_Kleki(1).png",
+      "description": "The one and only haptic fidget toy, now mollusk-shaped!",
+      "orignalLink": "https://www.ebay.com/itm/305492926615",
       "specs": {
-        "ports": "3 USB, 4 Power",
-        "length": "2m"
+        "Style": "Decorative"
       },
-      "inStock": true,
+      "inStock": false,
       "featured": false
     },
     {
       "id": 11,
-      "name": "Soldering Iron Kit",
-      "category": "electric",
-      "price": 2800,
-      "image": "https://images.unsplash.com/photo-1555617980-fb5e88e8719d?w=500&h=300&fit=crop",
-      "description": "Complete soldering kit with stand and tips.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Voxatron License",
+      "category": "games",
+      "price": 7,
+      "coins": 80,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODYsInB1ciI6ImJsb2JfaWQifX0=--15c13f57beb81660a9e8085438e195281ba749ca/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_15_0so_Kleki.png",
+      "description": "voxel your voxels!",
+      "orignalLink": "https://www.lexaloffle.com/voxatron.php",
       "specs": {
-        "power": "60W",
-        "voltage": "220V"
+        "more": "Console Game"
       },
-      "inStock": true,
-      "featured": true
+      "inStock": false,
+      "featured": false
     },
     {
       "id": 12,
-      "name": "LED Strip Light",
-      "category": "electric",
-      "price": 850,
-      "image": "https://images.unsplash.com/photo-1586528115311-79db38b8925f?w=500&h=300&fit=crop",
-      "description": "Flexible RGB light strip with remote.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Allen Wrench",
+      "category": "mechanical",
+      "price": 3,
+      "coins": 92,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQ5LCJwdXIiOiJibG9iX2lkIn19--cde005abbc6c04f722e523aa4445ab1afb408aeb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/image-removebg-preview(1).png",
+      "description": "They see me turnin, they hating...",
+      "orignalLink": "https://jiatianhardtool.en.made-in-china.com/product/UXTEgoKjZVRs/China-9PCS-S2-Extra-Long-Arm-Ball-Point-Hex-Key.html",
       "specs": {
-        "length": "5m",
-        "power": "12V"
+        "Material": "Alloy Steel",
+        "Trademark": "JIAXIN"
       },
-      "inStock": true,
+      "inStock": false,
       "featured": false
     },
 
     {
       "id": 13,
-      "name": "Crimping Tool Kit",
+      "name": "Raspberry Pi Zero 2 W",
       "category": "mechanical",
-      "price": 3200,
-      "image": "https://images.unsplash.com/photo-1527018604071-507d3e8f6f11?w=500&h=300&fit=crop",
-      "description": "Multipurpose crimping and wire tool kit.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "price": 15,
+      "coins": 100,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--3a24804392b79bb38b456e3af78e8e769b0768a7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_0z6_Kleki(1).png",
+      "description": "computing on a budget!",
+      "orignalLink": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/",
       "specs": {
-        "tools": "9",
-        "material": "Steel"
+        "cpu": "1GHz quad-core 64-bit Arm Cortex-A53 ",
+        "RAM": "512MB SDRAM"
       },
-      "inStock": true,
+      "inStock": false,
       "featured": false
     },
     {
       "id": 14,
-      "name": "Adjustable Wrench Set",
+      "name": "Digital Calipers",
       "category": "mechanical",
-      "price": 2100,
-      "image": "https://images.unsplash.com/photo-1581574203564-70f1bca28252?w=500&h=300&fit=crop",
+      "price": 8,
+      "coins": 102,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI2MSwicHVyIjoiYmxvYl9pZCJ9fQ==--b61d0b314a368d765ca8f83f9cc6c7d5c10e17dc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_0zd_Kleki(1).png",
       "description": "Set of wrenches for mechanical tasks.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "orignalLink": "https://www.amazon.com/Electronic-measuring-millimeter-conversion-measurement/dp/B094ZDBBZS?th=1",
       "specs": {
-        "sizes": "6in, 8in, 12in",
-        "material": "Alloy Steel"
+        "display": "LCD"
       },
-      "inStock": true,
+      "inStock": false,
       "featured": false
     },
     {
       "id": 15,
-      "name": "Precision Screwdriver Kit",
-      "category": "mechanical",
-      "price": 1700,
-      "image": "https://images.unsplash.com/photo-1617957748014-c9c3c47f14f6?w=500&h=300&fit=crop",
-      "description": "For electronics, watches, and glasses.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "256GB microSD card + adapter",
+      "category": "computer",
+      "coins": 110,
+      "price": 20,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIzOCwicHVyIjoiYmxvYl9pZCJ9fQ==--5b87d07a3d06f62a84614015df90f7bb70a5da3b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_0yl_Kleki(1).png",
+      "description": "this thing can fit so many cat pictures",
+      "orignalLink": "https://www.ebay.com/p/27028131452",
       "specs": {
-        "pieces": "24",
-        "magnetic": "Yes"
+        "Series": "Extreme Pro",
+        "Compatible Brand": "Universal"
       },
       "inStock": false,
       "featured": false
@@ -234,45 +247,46 @@
 
     {
       "id": 16,
-      "name": "Domain Name (.com)",
-      "category": "virtual",
-      "price": 1300,
-      "image": "https://images.unsplash.com/photo-1531497865144-0464ef8fbf57?w=500&h=300&fit=crop",
-      "description": "Register your brand's web identity.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "sketch from msw",
+      "category": "stationary",
+      "price": "  --",
+      "coins": 115,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--937db7bb5d3227260b1d3a9594c6837f62c25f07/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_18_0ll_Kleki.png",
+      "description": "Personal drawing by a staff member here at HQ",
+      "orignalLink": "#",
       "specs": {
-        "period": "1 year",
-        "privacy": "Included"
+        "Addition": "Limited"
       },
       "inStock": true,
       "featured": false
     },
     {
       "id": 17,
-      "name": "VPS Hosting Plan",
-      "category": "virtual",
-      "price": 11000,
-      "image": "https://images.unsplash.com/photo-1581092334820-894d58bba671?w=500&h=300&fit=crop",
-      "description": "Dedicated cloud VPS hosting for developers.",
+      "name": "256GB USB Drive",
+      "category": "tech-gadgets",
+      "coins": 125,
+      "price": 62,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI5NywicHVyIjoiYmxvYl9pZCJ9fQ==--59ffc4ea8faf06c10773318062acd389cc4350d8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/image-removebg-preview(8)(1).png",
+      "description": "great for storing even more cat pictures",
       "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
       "specs": {
-        "ram": "4 GB",
-        "storage": "80 GB SSD"
+        "storage": "256 GB",
+        "Hardware interface": "USB 3.0"
       },
       "inStock": true,
       "featured": true
     },
     {
       "id": 18,
-      "name": "SSL Certificate",
-      "category": "virtual",
-      "price": 1800,
-      "image": "https://images.unsplash.com/photo-1610576669033-6d0319295d99?w=500&h=300&fit=crop",
-      "description": "Secure your website with encryption.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "shapez 2",
+      "category": "games",
+      "price": 17.50,
+      "coins": 137,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI2NTMsInB1ciI6ImJsb2JfaWQifX0=--15194b2e7b24dd4023a5c617487fe9183cd8866a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_30_0of_Kleki(1).png",
+      "description": "Dive into a factory-building game with the focus on just that – building huge space factories!",
+      "orignalLink": "https://store.steampowered.com/app/2162800/shapez_2/",
       "specs": {
-        "type": "DV SSL",
-        "validity": "1 Year"
+        "Release Date": "15 AUG 2024"
       },
       "inStock": true,
       "featured": false
@@ -280,180 +294,94 @@
 
     {
       "id": 19,
-      "name": "Teddy Bear Plush",
-      "category": "toy",
-      "price": 1300,
-      "image": "https://images.unsplash.com/photo-1603574937617-029400b36f4b?w=500&h=300&fit=crop",
-      "description": "Soft toy for kids and babies.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Pinecil",
+      "category": "stationary",
+      "price": 99,
+      "coins": 144,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzQsInB1ciI6ImJsb2JfaWQifX0=--f454ae6f9c32179f3cc10e611da66dc06f73d71e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/25835_1_kwadrat.png",
+      "description": "64 whole pines!",
+      "orignalLink": "https://www.amazon.nl/-/en/Fraos-Pinecil-portable-soldering-DC5525/dp/B09M77N6XF",
       "specs": {
-        "size": "Medium",
-        "washable": "Yes"
+        "Wattage": "60 watts",
+        "Usage": "Residential Use"
       },
       "inStock": true,
       "featured": false
     },
     {
       "id": 20,
-      "name": "RC Shark Toy",
-      "category": "toy",
-      "price": 2600,
-      "image": "https://images.unsplash.com/photo-1603364357232-5d5f9f7c13ed?w=500&h=300&fit=crop",
-      "description": "Remote controlled shark for water play.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "USB C Cable + Wall Adapter",
+      "category": "electric",
+      "coins": 144,
+      "price": 32,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTMwNiwicHVyIjoiYmxvYl9pZCJ9fQ==--833a2f6bc91fce29de52042025e5227b9f75f096/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/image-removebg-preview(11).png",
+      "description": "charge up your device, send cat pictures, etc",
+      "orignalLink": "https://www.ebay.com/itm/405116626639",
       "specs": {
-        "battery": "Rechargeable",
-        "range": "15m"
+        "Weight": "7 ounce",
+        "Connector Type": "USB Type C"
       },
       "inStock": true,
       "featured": true
     },
     {
       "id": 21,
-      "name": "LEGO Classic Box",
-      "category": "toy",
-      "price": 3400,
-      "image": "https://images.unsplash.com/photo-1610553647856-c0c7a28a3277?w=500&h=300&fit=crop",
-      "description": "Creative block-building for kids.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Yubikey USB-A",
+      "category": "security",
+      "price": 50,
+      "coins": 375,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI5MywicHVyIjoiYmxvYl9pZCJ9fQ==--eed829f4f416a3ab5bc5ebead4b64128bbd37852/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/2025_06_17_109_Kleki(1).png",
+      "description": "Hardware backed 2FA",
+      "orignalLink": "https://www.amazon.com/Yubico-YubiKey-USB-Authentication-Security/dp/B07HBD71HL?th=1",
       "specs": {
-        "pieces": "500+",
-        "age": "5+"
+        "Special Feature": "IP68, Dust Proof",
+        "Connectivity Technology": "USB, NFC"
       },
       "inStock": true,
       "featured": false
     },
     {
       "id": 22,
-      "name": "Zero Flipper USB Device",
-      "category": "security",
-      "price": 5800,
-      "image": "https://images.unsplash.com/photo-1612810806706-1cb8e3a5d7a6?w=500&h=300&fit=crop",
-      "description": "Multi-tool for hardware exploration and pentesting.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Prusa MK4S 3D Printer",
+      "category": "mechanical",
+      "price": 900,
+      "coins": 6250,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTY1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--1f38e991463cc9e01409ff90b3c50ac44342318c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/image-removebg-preview(1)(1).png",
+      "description": "One of the best 3D printers, useful for any creative",
+      "orignalLink": "https://filament2print.com/en/filament-fdm/2156-prusa-mk4-fdm-3d-printer.html",
       "specs": {
-        "protocols": "RFID, IR, NFC",
-        "battery": "Built-in"
+        "Consumption": "80 - 120 W",
+        "Printing surface": "Removable"
       },
       "inStock": true,
       "featured": true
     },
     {
       "id": 23,
-      "name": "Fingerprint USB Lock",
-      "category": "security",
-      "price": 3500,
-      "image": "https://images.unsplash.com/photo-1516726817505-f5ed825e76a1?w=500&h=300&fit=crop",
-      "description": "USB device secured with fingerprint authentication.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "Smolhaj",
+      "category": "toy",
+      "price": 29,
+      "coins": 100,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjIsInB1ciI6ImJsb2JfaWQifX0=--00ba1348ce024a234f53f2e12c6b18d70e11dd6a/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/blahaj.png",
+      "description": "friend shark",
+      "orignalLink": "https://www.amazon.com/IKEA-BL%C3%85HAJ-soft-toy-shark/dp/B087QFCTBT",
       "specs": {
-        "type": "USB 3.0",
-        "security": "Biometric"
+        "Item Weight": "10.5 ounces"
       },
-      "inStock": true,
+      "inStock": false,
       "featured": false
     },
     {
       "id": 24,
-      "name": "Wi-Fi Door Sensor",
-      "category": "security",
-      "price": 2200,
-      "image": "https://images.unsplash.com/photo-1609092616139-79d10e2b050b?w=500&h=300&fit=crop",
-      "description": "Smart door/window sensor with app alerts.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
+      "name": "K4 desktop laser engraver",
+      "category": "mechanical",
+      "price": 600,
+      "coins": 800,
+      "image": "https://summer.hackclub.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc4ODAsInB1ciI6ImJsb2JfaWQifX0=--f51da5faed6b2259a5c1dba686fdc040c7ac6162/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyNTYsMjU2XX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--69edd5fc8f56201b3f04f7560743d8fad0d8d976/k4.png",
+      "description": "the diode's kinda wimpy...the software REALLY sucks...could *you* be the one to solve these problems?",
+      "orignalLink": "https://www.amazon.ae/Wisamic-Laser-Engraving-Machine-Engraver/dp/B07MPY7SK3",
       "specs": {
-        "connectivity": "Wi-Fi",
-        "battery": "AAA"
-      },
-      "inStock": true,
-      "featured": false
-    },
-    {
-      "id": 25,
-      "name": "Puzzle Adventure Board Game",
-      "category": "games",
-      "price": 2800,
-      "image": "https://images.unsplash.com/photo-1549921296-3a5e9e4a3cdd?w=500&h=300&fit=crop",
-      "description": "Solve clues and escape rooms with friends.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
-      "specs": {
-        "players": "2-6",
-        "time": "60 mins"
-      },
-      "inStock": true,
-      "featured": false
-    },
-    {
-      "id": 26,
-      "name": "Paper Toss Challenge",
-      "category": "games",
-      "price": 750,
-      "image": "https://images.unsplash.com/photo-1600195077071-1a2e5d0879f2?w=500&h=300&fit=crop",
-      "description": "Simple yet addictive desk game.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
-      "specs": {
-        "material": "Cardboard",
-        "age": "8+"
-      },
-      "inStock": true,
-      "featured": false
-    },
-    {
-      "id": 27,
-      "name": "Mini Tabletop Soccer",
-      "category": "games",
-      "price": 2400,
-      "image": "https://images.unsplash.com/photo-1610553647856-c0c7a28a3277?w=500&h=300&fit=crop",
-      "description": "Fast-paced football fun at your desk.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
-      "specs": {
-        "players": "2",
-        "size": "Small"
-      },
-      "inStock": true,
-      "featured": true
-    },
-    {
-      "id": 28,
-      "name": "Laptop Stand Adjustable",
-      "category": "computer",
-      "price": 2900,
-      "image": "https://images.unsplash.com/photo-1612810806706-1cb8e3a5d7a6?w=500&h=300&fit=crop",
-      "description": "Ergonomic aluminum stand for better posture.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
-      "specs": {
-        "material": "Aluminum",
-        "adjustable": "Yes"
-      },
-      "inStock": true,
-      "featured": false
-    },
-    {
-      "id": 29,
-      "name": "Gaming Mechanical Keyboard",
-      "category": "computer",
-      "price": 6700,
-      "image": "https://images.unsplash.com/photo-1519183071298-a2962be96f86?w=500&h=300&fit=crop",
-      "description": "RGB backlit mechanical keyboard with blue switches.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
-      "specs": {
-        "keys": "104",
-        "type": "Mechanical"
-      },
-      "inStock": true,
-      "featured": true
-    },
-    {
-      "id": 30,
-      "name": "USB Type-C Hub",
-      "category": "computer",
-      "price": 3300,
-      "image": "https://images.unsplash.com/photo-1615874959474-d609be1fa7e1?w=500&h=300&fit=crop",
-      "description": "7-in-1 hub with HDMI, USB, card reader, and more.",
-      "orignalLink": "https://www.amazon.com/dp/B07ZV3F5X9",
-      "specs": {
-        "ports": "7",
-        "input": "USB-C"
+        "Material": "ABS"
       },
       "inStock": true,
       "featured": false

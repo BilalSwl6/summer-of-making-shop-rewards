@@ -1,51 +1,59 @@
-# List of products
+# 🛍️ Summer of Making Shop Rewards
+
+A simple React + Vite app to browse and filter products from the Hack Club’s Summer of Making shop.
+
+---
+
+## 📦 Get Product Names from Hack Club Shop
+
+Use this one-liner to extract product names from the official shop page:
+
+```bash
+curl -s https://summer.hackclub.com/shop \
+  | grep -oP '<h3 class="text-xl font-bold mb-2">.*?<\/h3>' \
+  | sed -E 's/<h3 class="text-xl font-bold mb-2">(.*?)<\/h3>/\1/'
 ```
-$ curl -s https://summer.hackclub.com/shop | grep -oP '<h3 class="text-xl font-bold mb-2">.*?<\/h3>' | sed -E 's/<h3 class="text-xl font-bold mb-2">(.*?)<\/h3>/\1/'
+
+---
+
+## 🚀 Deployment
+
+### 1. Setup
+
+Clone the repository, install dependencies, and build the project:
+
+```bash
+git clone https://github.com/BilalSwl6/summer-of-making-shop-rewards.git
+cd summer-of-making-shop-rewards
+npm install
+npm run build
 ```
-# Details pending for the products
-- [ ] Free Stickers!
-- [ ] Pile of Stickers
-- [ ] TIS-100
-- [ ] 64GB USB Drive
-- [ ] Hot Glue Gun
-- [ ] Domain grant
-- [ ] CH341A Programmer
-- [ ] Orpheus Pico! (preorder)
-- [ ] Logic Analyzer
-- [ ] 128GB USB Drive
-- [ ] Cat Printer
-- [ ] Pico-8 License
-- [ ] Allen Wrench 
-- [ ] Digital Calipers
-- [ ] Voxatron License
-- [ ] Raspberry Pi Zero 2 W
-- [ ] 256GB USB Drive
-- [ ] 256GB microSD card + adapter
-- [ ] Smolhaj
-- [ ] Anker USB C to USB C Cable + Wall Adapter
-- [ ] Qiyi XMD XT3 speedcube
-- [ ] Dupont Crimping Tool Kit
-- [ ] Pinecil
-- [ ] Lexaloffle Games bundle
-- [ ] Factorio
-- [ ] Brother Label Maker
-- [ ] Proxmark 3
-- [ ] Yubikey USB-A
-- [ ] Waveshare 7.5inch E-Ink Display
-- [ ] Baofeng UV-5R (2 pack)
-- [ ] Yubikey USB-C
-- [ ] Seagate 2TB external HDD
-- [ ] Logitech MX Master 3S
-- [ ] Raspberry Pi 5
-- [ ] Glasgow Interface Explorer
-- [ ] Logitech G Pro X Superlight
-- [ ] Flipper Zero
-- [ ] cricut v3
-- [ ] Playdate
-- [ ] Bambu A1 mini Printer
-- [ ] 100MHZ Oscilloscope
-- [ ] $500 in Amp credit
-- [ ] iPad + Apple Pencil
-- [ ] M4 Mac Mini
-- [ ] Framework 12
-- [ ] 13-inch M4 MacBook Air
+
+### 2. Before Deployment or Local Development
+
+Edit `vite.config.ts` and **remove or comment out** the following lines if you're not deploying to GitHub Pages or using ngrok:
+
+```ts
+base: '/summer-of-making-shop-rewards/',
+allowedHosts: ['.ngrok-free.app'],
+```
+
+---
+
+## 🌐 Live Demo
+
+Once deployed via GitHub Actions, your app will be live at:
+
+👉 **https://bilalswl6.github.io/summer-of-making-shop-rewards/**
+
+---
+
+## ⚙️ Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 🌀 Tailwind CSS
+- 🔒 TypeScript
+- 📦 GitHub Pages (for deployment)
+
+---
