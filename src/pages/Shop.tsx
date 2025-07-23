@@ -121,7 +121,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, isImageLoaded, onIma
       <Separator className="bg-border" />
 
       <CardFooter className="p-0">
-        <Button asChild className="w-full text-primary-foreground font-semibold rounded-2xl h-12 shadow-lg hover:shadow-xl transition-all duration-200 border-0">
+        <Button asChild className="w-full text-primary-foreground font-semibold rounded-md h-12 shadow-lg hover:shadow-xl transition-all duration-200 border-0">
           <Link to={`/product/${product.id}`} aria-label={`View details for ${product.name}`}>
             <Eye className="w-4 h-4 mr-2" />
             View Details

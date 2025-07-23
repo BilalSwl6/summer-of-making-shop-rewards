@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"
 
 export default function GuestLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100">
       {/* Navbar */}
-      <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200/50 shadow-lg">
+      <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200/50 shadow-lg rounded-b-2xl">
         <div className="max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 sm:px-6 py-4">
           <div className="flex justify-center gap-4 sm:gap-8">
             <NavItem to="/" icon={<Home size={20} />}>Home</NavItem>

@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/summer-of-making-shop-rewards/',
+  // base: '/summer-of-making-shop-rewards/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -14,6 +14,6 @@ export default defineConfig({
   },
   server: {
     // Use ngrok for tunneling --  remove this line  after you are done te
-    allowedHosts: ['.ngrok-free.app'],
+    allowedHosts: ['.ngrok-free.app', '.vercel.app'],
   },
 })

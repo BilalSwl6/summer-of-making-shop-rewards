@@ -95,7 +95,7 @@ function ProductDetail() {
               </CardDescription>
               <Button 
                 asChild 
-                className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground rounded-2xl px-8 border-0"
+                className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground rounded-lg px-8 border-0"
               >
                 <Link to="/shop">
                   <ArrowLeft className="w-4 h-4 mr-2" />
@@ -111,7 +111,7 @@ function ProductDetail() {
 
   return (
     <>
-      <Toaster />
+      <Toaster richColors />
       <GuestLayout>
         <div className="min-h-screen py-8 px-4">
           {/* Back Button */}
@@ -119,7 +119,7 @@ function ProductDetail() {
             <Button
               asChild
               variant="outline"
-              className="rounded-xl border-border hover:bg-muted focus:ring-2 focus:ring-primary/20"
+              className="rounded-lg border-border hover:bg-muted focus:ring-2 focus:ring-primary/20"
             >
               <Link to="/shop">
                 <ArrowLeft className="w-4 h-4 mr-2" />
@@ -155,7 +155,7 @@ function ProductDetail() {
                       <Button
                         size="sm"
                         variant="secondary"
-                        className="h-10 w-10 rounded-full bg-background/90 backdrop-blur-sm hover:bg-background shadow-lg border transition-all duration-200 hover:scale-105"
+                        className="h-10 w-10 rounded-lg bg-background/90 backdrop-blur-sm hover:bg-background shadow-lg border transition-all duration-200 hover:scale-105"
                         onClick={handleShare}
                         aria-label="Share product"
                       >
@@ -276,7 +276,7 @@ function ProductDetail() {
                       <div className="grid grid-cols-2 gap-4">
                         <Button
                           disabled={!product.inStock}
-                          className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground font-semibold rounded-2xl h-12 shadow-lg hover:shadow-xl transition-all duration-200 border-0 disabled:opacity-50 disabled:cursor-not-allowed"
+                          className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground font-semibold rounded-lg h-12 shadow-lg hover:shadow-xl transition-all duration-200 border-0 disabled:opacity-50 disabled:cursor-not-allowed"
                         >
                           <ShoppingCart className="w-4 h-4 mr-2" />
                           Add to Cart
@@ -284,7 +284,7 @@ function ProductDetail() {
                         
                         <Button
                           variant="outline"
-                          className="rounded-2xl h-12 border-border hover:bg-muted focus:ring-2 focus:ring-primary/20 font-semibold"
+                          className="rounded-lg h-12 border-border hover:bg-muted focus:ring-2 focus:ring-primary/20 font-semibold"
                           onClick={handleWishlist}
                         >
                           <Heart className={`w-4 h-4 mr-2 ${isWishlisted ? 'fill-current text-red-500' : ''}`} />
@@ -296,7 +296,7 @@ function ProductDetail() {
                         <Button
                           asChild
                           variant="outline"
-                          className="w-full rounded-2xl h-12 border-border hover:bg-muted focus:ring-2 focus:ring-primary/20 font-semibold"
+                          className="w-full rounded-lg h-12 hover:bg-muted focus:ring-2 focus:ring-primary/20 font-semibold"
                         >
                           <Link to={product.orignalLink} target="_blank" rel="noopener noreferrer">
                             <ExternalLink className="w-4 h-4 mr-2" />
