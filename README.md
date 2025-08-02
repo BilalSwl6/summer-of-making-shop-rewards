@@ -44,7 +44,7 @@ allowedHosts: ['.ngrok-free.app'],
 
 Once deployed via GitHub Actions, your app will be live at:
 
-👉 **https://bilalswl6.github.io/summer-of-making-shop-rewards/**
+👉 **[https://summer-of-making-shop-rewards.vercel.app/](https://summer-of-making-shop-rewards.vercel.app/)**
 
 ---
 
