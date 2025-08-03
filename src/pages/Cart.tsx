@@ -67,7 +67,7 @@ export default function Cart() {
                         {product.description}
                       </CardDescription>
                       <div className="text-sm font-medium text-primary">
-                        Rs {product.price}
+                        $ {product.price}
                       </div>
                       <Button
                         onClick={() => removeFromCart(product.id)}
@@ -82,7 +82,7 @@ export default function Cart() {
                 </div>
 
                 <div className="text-right text-lg font-semibold">
-                  Total: Rs {getTotal()}
+                  Total: $ {getTotal()}
                 </div>
               </>
             )}

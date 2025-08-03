@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/c
 import { Button } from "@/components/ui/button";
 import GuestLayout from "@/layouts/GuestLayout";
 import data from "@/data/products.json"; 
+import { Link } from "react-router-dom";
 
 type Product = {
   id: number;
@@ -56,9 +57,11 @@ useEffect(() => {
                     </CardDescription>
                   </div>
                   <div className="text-xl font-bold text-indigo-700">$ {product.price}</div>
+                  <Link to={`/product/${product.id}`}>
                   <Button variant="default" className="w-full text-base font-medium">
                     View Details
                   </Button>
+                  </Link>
                 </CardContent>
               </Card>
             ))}

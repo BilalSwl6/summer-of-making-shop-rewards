@@ -63,7 +63,7 @@ export default function Wishlist() {
                       {product.description}
                     </CardDescription>
                     <div className="text-sm font-medium text-primary">
-                      Rs {product.price}
+                      $ {product.price}
                     </div>
                     <Button
                       onClick={() => removeFromWishlist(product.id)}
