@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Shop from './pages/Shop'
 import ProductDetail from './pages/ProductDetail'
+import Wishlist from './pages/Wishlist'
+import Cart from './pages/Cart'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
             <Route path="/product/:id" element={<ProductDetail />} />
+            <Route path="/cart" element={<Wishlist />} />
+            <Route path="/wishlist" element={<Cart />} />
           </Routes>
         </main>
       </div>

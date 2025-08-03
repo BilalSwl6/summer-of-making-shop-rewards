@@ -11,7 +11,7 @@ import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { toast } from "sonner";
 import { Toaster } from "@/components/ui/sonner";
-import { Share2, Copy, Facebook, Twitter, Instagram, ShoppingBag, Eye, Shell } from "lucide-react";
+import { Share2, Copy, Facebook, Twitter, ShoppingBag, Eye, Shell } from "lucide-react";
 
 interface Product {
   id: string | number;
@@ -133,11 +133,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, isImageLoaded, onIma
 );
 
 const ShareDialog: React.FC<ShareDialogProps> = ({ isOpen, onOpenChange, product, shareUrl, onCopyToClipboard }) => {
-  const handleSocialShare = (platform: "facebook" | "twitter" | "instagram") => {
+  const handleSocialShare = (platform: "facebook" | "twitter") => {
     const urls = {
       facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
       twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(product?.name || "")}`,
-      instagram: "https://www.instagram.com",
     };
 
     window.open(urls[platform], "_blank", "noopener,noreferrer");
@@ -145,7 +144,7 @@ const ShareDialog: React.FC<ShareDialogProps> = ({ isOpen, onOpenChange, product
 
   return (
     <>
-      <Toaster />
+      <Toaster richColors />
       <Dialog open={isOpen} onOpenChange={onOpenChange}>
         <DialogContent className="sm:max-w-md bg-card border-border">
           <DialogHeader className="text-center pb-4">
@@ -177,7 +176,7 @@ const ShareDialog: React.FC<ShareDialogProps> = ({ isOpen, onOpenChange, product
                 <Button
                   size="sm"
                   onClick={() => onCopyToClipboard(shareUrl)}
-                  className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground rounded-xl px-4 border-0"
+                  className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground rounded-md px-4 border-0"
                 >
                   <Copy className="h-4 w-4" />
                 </Button>
@@ -186,11 +185,10 @@ const ShareDialog: React.FC<ShareDialogProps> = ({ isOpen, onOpenChange, product
 
             <Separator className="bg-border" />
 
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-2 gap-3">
               {[
                 { platform: "facebook", icon: <Facebook className="h-5 w-5 text-blue-600 dark:text-blue-400" />, label: "Facebook" },
                 { platform: "twitter", icon: <Twitter className="h-5 w-5 text-sky-600 dark:text-sky-400" />, label: "Twitter" },
-                { platform: "instagram", icon: <Instagram className="h-5 w-5 text-pink-600 dark:text-pink-400" />, label: "Instagram" },
               ].map(({ platform, icon, label }) => (
                 <Button
                   key={platform}
@@ -241,7 +239,6 @@ const Shop: React.FC = () => {
         description: "Product link has been copied successfully.",
       });
     } catch (error) {
-      console.error("Failed to copy to clipboard:", error);
       toast.error("Copy failed", {
         description: "Failed to copy link. Please try again.",
       });
@@ -260,6 +257,7 @@ const Shop: React.FC = () => {
 
   return (
     <GuestLayout>
+      <Toaster richColors />
       <div className="space-y-12 pb-16">
         {/* Hero */}
         <div className="relative overflow-hidden">
