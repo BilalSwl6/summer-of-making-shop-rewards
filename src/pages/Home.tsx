@@ -2,28 +2,26 @@ import { useEffect, useState } from "react";
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import GuestLayout from "@/layouts/GuestLayout";
+import data from "@/data/products.json"; 
 
 type Product = {
   id: number;
   name: string;
   description: string;
   featured?: boolean;
-  price: number;
+  price: number | string;
   image: string;
 };
 
 export default function Home() {
   const [featured, setFeatured] = useState<Product[]>([]);
 
-  useEffect(() => {
-    fetch("/src/data/products.json")
-      .then((res) => res.json())
-      .then((data: { products: Product[] }) => {
-        const featuredProducts = data.products.filter(product => product.featured);
-        const shuffled = [...featuredProducts].sort(() => 0.5 - Math.random());
-        setFeatured(shuffled.slice(0, 2));
-      });
-  }, []);
+  
+useEffect(() => {
+  const featuredProducts = data.products.filter(product => product.featured);
+  const shuffled = [...featuredProducts].sort(() => 0.5 - Math.random());
+  setFeatured(shuffled.slice(0, 2));
+}, []);
 
   return (
     <GuestLayout>
